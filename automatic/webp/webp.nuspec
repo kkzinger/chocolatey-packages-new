@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>webp</id>
+    <version>0.6.0</version>
+    <packageSourceUrl>https://chromium.googlesource.com/webm/libwebp/+/master</packageSourceUrl>
+    <owners>kkzinger</owners>
+    <title>webp (Install)</title>
+    <authors>Charles Munger,Christian Duvivier,Djordje Pesut,Hui Su,James Zern,Jan Engelhardt,Jehan,Johann,Jovan Zelincevic,Jyrki Alakuijala,Lode Vandevenne,Lou Quillio,Mans Rullgard,Marcin Kowalczyk,Martin Olsson,Mikołaj Zalewski,Mislav Bradac,Nico Weber,Noel Chromium,Owen Rodley,Parag Salasakar,Pascal Massimino,Paweł Hajdan, Jr,Pierre Joye,Sam Clegg,Scott Hancher,Scott LaVarnway,Scott Talbot,Slobodan Prijic,Somnath Banerjee,Sriraman Tallam,Tamar Levy,Timothy Gu,Urvang Joshi,Vikas Arora,Vincent Rabaud,Yang Zhang</authors>
+    <projectUrl>https://developers.google.com/speed/webp/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/kkzinger/chocolatey-packages-new/22a7d37c/icons/webp.png</iconUrl>
+    <copyright>2010, Google Inc.</copyright>
+    <licenseUrl>https://chromium.googlesource.com/webm/libwebp/+/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://chromium.googlesource.com/webm/libwebp/+/master</projectSourceUrl>
+    <docsUrl>https://developers.google.com/speed/webp/docs/using</docsUrl>
+    <mailingListUrl>https://groups.google.com/a/webmproject.org/group/webp-discuss</mailingListUrl>
+    <bugTrackerUrl>https://bugs.chromium.org/p/webp/issues/list</bugTrackerUrl>
+    <tags>webp images picture graphics convert admin</tags>
+    <summary>Tools for webp pictures</summary>
+    <description>WebP is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.</description>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

@@ -1,0 +1,24 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Package can be verified like this:
+
+1. Go to
+
+   x32: https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-0.6.0-windows-x86.zip
+   x64: https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-0.6.0-windows-x64.zip
+
+   to download the installer.
+
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+
+   checksum32: 0E1D562F760411244C5CE9C6EC7F92FE3F2BCCEE4EE7F744D9C45B4F16C6AE8F
+   checksum64: 6CD710B4D547033812AB5F74F268C9FAA3D86EFA8E92F86B3D5F74F8DAFD03ED
+
+Using AU:
+
+   Get-RemoteChecksum
