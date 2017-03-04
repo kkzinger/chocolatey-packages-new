@@ -13,6 +13,9 @@
 *.new
 *.exist
 *-orig.*
+*.zip
+*.exe
+*.msi
 Thumbs.db
 .DS_Store
 _ReSharper*
