@@ -6,13 +6,20 @@ $github_releases = 'https://github.com/ncw/rclone/releases'
 
 function global:au_SearchReplace {
    @{
-        ".\rclone.nuspec" = @{
-            '("rclone\.install"\sversion=)(".*")'  = "`$1'$($Latest.version)'"
+        ".\tools\chocolateyInstall.ps1" = @{
+            "(?i)(^\s*packageName\s*=\s*)('.*')"  = "`$1'$($Latest.PackageName)'"
+        }
+
+        ".\legal\VERIFICATION.txt" = @{
+          "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
+          "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
+          "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
+          "(?i)(checksum64:).*"        = "`${1} $($Latest.Checksum64)"
         }
     }
 }
 function global:au_BeforeUpdate {
-    
+    Get-RemoteFiles -Purge
 }
 
 function global:au_GetLatest {

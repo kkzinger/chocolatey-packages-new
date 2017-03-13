@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>rclone</id>
-    <version>1.35.0.20170313</version>
+    <id>rclone.portable</id>
+    <version>1.35</version>
     <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
     <owners>kkzinger</owners>
-    <title>rclone</title>
+    <title>rclone (Portable)</title>
     <authors>Nick Craig-Wood</authors>
     <projectUrl>https://rclone.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/kkzinger/chocolatey-packages/master/rclone/rclone-120x120.png</iconUrl>
@@ -20,12 +20,13 @@
     <description>Rclone is a command line program to sync files and directories to and from different cloud storage solutions</description>
     <releaseNotes>http://rclone.org/changelog/</releaseNotes>
 	<dependencies>
-      <dependency id="rclone.install" version='1.35' />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
     </dependencies>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
+	<file src="legal\**" target="legal" />
     <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>

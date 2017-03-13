@@ -8,7 +8,7 @@ $zip_path = if ((Get-ProcessorBits 64) -and $env:chocolateyForceX86 -ne 'true') 
 
 
 $packageArgs = @{
-    PackageName  = 'rclone'
+    PackageName  = 'rclone.portable'
     FileFullPath = $zip_path
     Destination  = $toolsPath
 }
