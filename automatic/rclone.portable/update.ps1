@@ -23,17 +23,18 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $github_releases -UseBasicParsing
+     $download_page = Invoke-WebRequest -Uri $github_releases -UseBasicParsing
     
-    $re = '\.zip$'
-    $url   = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $re = '.+windows.+\.zip$'
+    $url32   = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $url64   = $download_page.links | ? href -match $re | select -Skip 1 -First 1 -expand href
 
-    $version  = ($url -split '/' | select -Last 1 -Skip 1) -split 'v' | select -Last 1
+    $version  = ($url32 -split '/' | select -Last 1 -Skip 1) -split 'v' | select -Last 1
 
     @{
         Version      = $version
-        URL32        = $releases32
-        URL64        = $releases64
+        URL32        = $url32
+        URL64        = $url64
         ReleaseNotes = ''
     }
 }
