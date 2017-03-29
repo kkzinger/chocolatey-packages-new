@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rclone</id>
-    <version>1.35.0.20170313</version>
+    <version>1.36</version>
     <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
     <owners>kkzinger</owners>
     <title>rclone</title>
@@ -20,7 +20,7 @@
     <description>Rclone is a command line program to sync files and directories to and from different cloud storage solutions</description>
     <releaseNotes>http://rclone.org/changelog/</releaseNotes>
 	<dependencies>
-      <dependency id="rclone.install" version='1.35' />
+      <dependency id="rclone.install" version='1.36' />
     </dependencies>
   </metadata>
   <files>

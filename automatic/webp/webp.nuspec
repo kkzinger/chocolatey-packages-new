@@ -4,7 +4,7 @@
   <metadata>
     <id>webp</id>
     <version>0.6.0</version>
-    <packageSourceUrl>https://chromium.googlesource.com/webm/libwebp/+/master</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
     <owners>kkzinger</owners>
     <title>webp (Install)</title>
     <authors>Charles Munger,Christian Duvivier,Djordje Pesut,Hui Su,James Zern,Jan Engelhardt,Jehan,Johann,Jovan Zelincevic,Jyrki Alakuijala,Lode Vandevenne,Lou Quillio,Mans Rullgard,Marcin Kowalczyk,Martin Olsson,Mikołaj Zalewski,Mislav Bradac,Nico Weber,Noel Chromium,Owen Rodley,Parag Salasakar,Pascal Massimino,Paweł Hajdan, Jr,Pierre Joye,Sam Clegg,Scott Hancher,Scott LaVarnway,Scott Talbot,Slobodan Prijic,Somnath Banerjee,Sriraman Tallam,Tamar Levy,Timothy Gu,Urvang Joshi,Vikas Arora,Vincent Rabaud,Yang Zhang</authors>
@@ -17,7 +17,7 @@
     <docsUrl>https://developers.google.com/speed/webp/docs/using</docsUrl>
     <mailingListUrl>https://groups.google.com/a/webmproject.org/group/webp-discuss</mailingListUrl>
     <bugTrackerUrl>https://bugs.chromium.org/p/webp/issues/list</bugTrackerUrl>
-    <tags>webp images picture graphics convert admin</tags>
+    <tags>webp images picture graphics convert</tags>
     <summary>Tools for webp pictures</summary>
     <description>WebP is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.</description>
     <dependencies>
@@ -27,6 +27,7 @@
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
+	<file src="legal\**" target="legal" />
     <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>
