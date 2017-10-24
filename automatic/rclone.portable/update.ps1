@@ -23,11 +23,11 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-     $download_page = Invoke-WebRequest -Uri $github_releases -UseBasicParsing
+    $download_page = Invoke-WebRequest -Uri $github_releases -UseBasicParsing
     
     $re = '.+windows.+\.zip$'
-    $url32   = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url64   = $download_page.links | ? href -match $re | select -Skip 1 -First 1 -expand href
+    $url32   = "https://github.com$($download_page.links | ? href -match $re | select -First 1 -expand href)"
+    $url64   = "https://github.com$($download_page.links | ? href -match $re | select -Skip 1 -First 1 -expand href)"
 
     $version  = ($url32 -split '/' | select -Last 1 -Skip 1) -split 'v' | select -Last 1
 

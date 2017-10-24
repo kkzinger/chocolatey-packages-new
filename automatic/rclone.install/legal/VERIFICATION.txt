@@ -7,8 +7,8 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: http://downloads.rclone.org/rclone-current-windows-386.zip
-   x64: http://downloads.rclone.org/rclone-current-windows-amd64.zip
+   x32: https://github.com/ncw/rclone/releases/download/v1.38/rclone-v1.38-windows-386.zip
+   x64: https://github.com/ncw/rclone/releases/download/v1.38/rclone-v1.38-windows-amd64.zip
 
    to download the installer.
 
@@ -16,8 +16,8 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 08ec38b8b5e332494d44ee9b0acfd64a39ec778f37750e4a81bb4d12eb3b66a8
-   checksum64: 10abb1d25f0e3eb6e98f8894c6e5ecd20d22aeee7bbade84e9e4e816491a3330
+   checksum32: 243048b24b05fbc7efbf00ea6b66bca43c3d7e2a8600bc7585a6ef0cf877fe2c
+   checksum64: 2be955fbce650a0b93e7c907f2b8c56a8af95bb5e341be3f90623d822abd083f
 
 Using AU:
 
