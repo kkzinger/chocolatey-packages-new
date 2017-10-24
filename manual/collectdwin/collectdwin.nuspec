@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>collectdwin</id>
+    <title>collectdwin (Install)</title>
+    <version>0.5.19</version>
+    <authors>Bloomberg Finance L.P</authors>
+    <owners>Bloomberg Finance L.P</owners>
+    <summary>...</summary>
+    <description>Installs a Service that is capable to read Performance Counters and send it to different outputs. The output format of the Data is based on collectd formating.
+    </description>
+    <projectUrl>https://github.com/bloomberg/collectdwin</projectUrl>
+    <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages.git</packageSourceUrl>
+    <projectSourceUrl>https://github.com/bloomberg/collectdwin</projectSourceUrl>
+    <docsUrl>https://github.com/bloomberg/collectdwin/wiki</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/bloomberg/collectdwin/issues</bugTrackerUrl>
+    <tags>collectdwin admin</tags>
+    <!--<copyright></copyright>-->
+    <licenseUrl>https://raw.githubusercontent.com/bloomberg/collectdwin/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<iconUrlhttps://avatars0.githubusercontent.com/u/1416818?v=3&s=200</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <!--<releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>-->
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
