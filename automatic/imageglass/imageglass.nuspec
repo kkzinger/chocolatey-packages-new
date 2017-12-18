@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>imageglass</id>
+    <title>ImageGlass</title>
+    <version>4.5.11.27</version>
+    <authors>Duong Dieu Phap</authors>
+    <owners>kkzinger</owners>
+    <summary>A lightweight, versatile image viewer</summary>
+    <description>
+ImageGlass is a simple picture viewer with which you will be able to display your image collection in a very similar way to the one that Windows provides by default, but with some additional functions. This application will allow you to better manage your pictures thanks to the options it includes and the extension it enables to install for adding more functions and widening its possibilities. 
+
+#### Documentation
+* [Screenshots](http://www.imageglass.org/download#Screenshots)
+* [Users](https://groups.google.com/forum/#!forum/imageglass)
+* [Developers](https://github.com/d2phap/ImageGlass/issues)
+
+#### Community
+* [Facebook](https://www.facebook.com/ImageGlass)
+* [Google+](https://plus.google.com/+ImageglassOrg)
+    </description>
+    <projectUrl>http://imageglass.org/support</projectUrl>
+    <tags>image viewer admin</tags>
+    <copyright>Copyright (C) 2010 - 2016 Duong Dieu Phap</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/d2phap/ImageGlass/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/kkzinger/chocolatey-packages-new/a79d6098/icons/imageglass.png</iconUrl>
+    <releaseNotes>https://github.com/d2phap/ImageGlass/releases/latest</releaseNotes>
+    <docsUrl>http://imageglass.org/documentation</docsUrl>
+    <bugTrackerUrl>https://github.com/d2phap/ImageGlass/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/d2phap/ImageGlass</projectSourceUrl>
+    <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
+    <dependencies>
+		<dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
