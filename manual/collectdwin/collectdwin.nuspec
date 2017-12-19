@@ -17,7 +17,7 @@
     <docsUrl>https://github.com/bloomberg/collectdwin/wiki</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/bloomberg/collectdwin/issues</bugTrackerUrl>
-    <tags>collectdwin admin</tags>
+    <tags>collectdwin admin monitoring</tags>
     <!--<copyright></copyright>-->
     <licenseUrl>https://raw.githubusercontent.com/bloomberg/collectdwin/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
