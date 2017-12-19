@@ -8,7 +8,7 @@ function global:au_SearchReplace {
             "(?i)(^\s*packageName\s*=\s*)('.*')"  = "`$1'$($Latest.PackageName)'"
         }
 
-        ".\legal\VERIFICATION.txt" = @{
+        ".\tools\VERIFICATION.txt" = @{
           "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
           "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
           "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
