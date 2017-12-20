@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>windowsspyblocker</id>
+    <version>4.10.1</version>
+    <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
+    <owners>kkzinger</owners>
+    <title>WindowsSpyBlocker</title>
+    <authors>CrazyMax</authors>
+    <projectUrl>https://github.com/crazy-max/WindowsSpyBlocker</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/kkzinger/chocolatey-packages-new/195eee5a/icons/windowsspyblocker.png</iconUrl>
+    <copyright>Copyright (c) 2016-2017 Cr@zy</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/crazy-max/WindowsSpyBlocker</projectSourceUrl>
+    <docsUrl>https://github.com/crazy-max/WindowsSpyBlocker/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/crazy-max/WindowsSpyBlocker/issues</bugTrackerUrl>
+    <tags>security antispyware foss </tags>
+    <summary>WindowsSpyBlocker is an application written in Go and delivered as a single executable to block spying and tracking on Windows systems.</summary>
+    <description>WindowsSpyBlocker is an application written in Go and delivered as a single executable to block spying and tracking on Windows systems. The initial approach of this application is to capture and analyze network traffic based on a set of tools.</description>
+    <releaseNotes>https://github.com/crazy-max/WindowsSpyBlocker/releases/latest</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
