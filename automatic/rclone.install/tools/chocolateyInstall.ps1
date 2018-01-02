@@ -4,10 +4,10 @@ $installPath = "$env:ProgramFiles\rclone"
 
 $packageArgs = @{
   packageName    = 'rclone.install'
-  url            = 'https://github.com/ncw/rclone/releases/download/v1.38/rclone-v1.38-windows-386.zip'
-  url64Bit       = 'https://github.com/ncw/rclone/releases/download/v1.38/rclone-v1.38-windows-amd64.zip'
-  checksum       = '243048b24b05fbc7efbf00ea6b66bca43c3d7e2a8600bc7585a6ef0cf877fe2c'
-  checksum64     = '2be955fbce650a0b93e7c907f2b8c56a8af95bb5e341be3f90623d822abd083f'
+  url            = 'https://github.com/ncw/rclone/releases/download/v1.39/rclone-v1.39-windows-386.zip'
+  url64Bit       = 'https://github.com/ncw/rclone/releases/download/v1.39/rclone-v1.39-windows-amd64.zip'
+  checksum       = '7bc33e1d3a79dada96582c123a8ff7ed834d99f04fbc6cc294f1646f883bcfb1'
+  checksum64     = 'ccff7549455b07e95049afb778daf8fa9c83ade11fa780f65ef8e7c20bc1fbdc'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   unzipLocation  = $installPath

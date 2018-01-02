@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.10.1/WindowsSpyBlocker.exe
+   x64: https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.10.2/WindowsSpyBlocker.exe
 
    to download the installer.
 
@@ -15,11 +15,11 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 65AF46E20E2D5F67E840A122F1DD1B0B5B3AD3BC1560612E1CE02D6675FFF833
+   checksum64: AB2DDDB5374D0A186BCD32812088C4633E1BBA85C6D7014CD85F05F5C657D24C
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.10.1/WindowsSpyBlocker.exe
+   Get-RemoteChecksum https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.10.2/WindowsSpyBlocker.exe
 
 File 'LICENCE.txt' is obtained from:
    https://github.com/crazy-max/WindowsSpyBlocker/blob/master/LICENSE

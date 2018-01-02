@@ -10,11 +10,13 @@ function global:au_SearchReplace {
             "(?i)(^\s*packageName\s*=\s*)('.*')"  = "`$1'$($Latest.PackageName)'"
         }
 
-        ".\legal\VERIFICATION.txt" = @{
+        ".\tools\VERIFICATION.txt" = @{
           "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
           "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
           "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
           "(?i)(checksum64:).*"        = "`${1} $($Latest.Checksum64)"
+          "(?i)(x32-ver: Get-RemoteChecksum).*" = "`${1} $($Latest.URL32)"
+          "(?i)(x64-ver: Get-RemoteChecksum).*" = "`${1} $($Latest.URL64)"
         }
     }
 }

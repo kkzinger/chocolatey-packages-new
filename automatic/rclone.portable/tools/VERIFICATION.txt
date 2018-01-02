@@ -16,12 +16,13 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 7bc33e1d3a79dada96582c123a8ff7ed834d99f04fbc6cc294f1646f883bcfb1
-   checksum64: ccff7549455b07e95049afb778daf8fa9c83ade11fa780f65ef8e7c20bc1fbdc
+   checksum32: 7BC33E1D3A79DADA96582C123A8FF7ED834D99F04FBC6CC294F1646F883BCFB1
+   checksum64: CCFF7549455B07E95049AFB778DAF8FA9C83ADE11FA780F65EF8E7C20BC1FBDC
 
 Using AU:
 
-   Get-RemoteChecksum
+  x32-ver: Get-RemoteChecksum https://github.com/ncw/rclone/releases/download/v1.39/rclone-v1.39-windows-386.zip
+  x64-ver: Get-RemoteChecksum https://github.com/ncw/rclone/releases/download/v1.39/rclone-v1.39-windows-amd64.zip
 
-File 'COPYING.txt' is obtained from:
+File 'LICENSE.txt' is obtained from:
    https://github.com/ncw/rclone/blob/master/COPYING
