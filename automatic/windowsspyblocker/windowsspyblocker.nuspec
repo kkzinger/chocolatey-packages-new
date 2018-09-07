@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>windowsspyblocker</id>
-    <version>4.10.2</version>
+    <version>4.15.0</version>
     <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages-new</packageSourceUrl>
     <owners>kkzinger</owners>
     <title>WindowsSpyBlocker</title>

@@ -4,7 +4,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>imageglass</id>
     <title>ImageGlass</title>
-    <version>4.5.11.27</version>
+    <version>5.1.5.20</version>
     <authors>Duong Dieu Phap</authors>
     <owners>kkzinger</owners>
     <summary>A lightweight, versatile image viewer</summary>

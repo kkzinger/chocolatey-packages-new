@@ -3,8 +3,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'gifsicle'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://eternallybored.org/misc/gifsicle/releases/gifsicle-1.88-win32.zip'
-$url64      = 'https://eternallybored.org/misc/gifsicle/releases/gifsicle-1.88-win64.zip'
+$url        = 'https://eternallybored.org/misc/gifsicle/releases/gifsicle-1.89-win32.zip'
+$url64      = 'https://eternallybored.org/misc/gifsicle/releases/gifsicle-1.89-win64.zip'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'gifsicle*'
 
-  Checksum      = '1C966E6213738F1374EEF0D1292DFECDCA25B080C958E4B596F0D0F2FD4C9198'
+  Checksum      = 'D9B2B29F383B5235BE6C3518131FEBD55C1A4BB48CB39975CBAC13E073094938'
   ChecksumType  = 'sha256'
-  Checksum64    = 'ADC2E4E7677122660D522E3241058E78A3441ECEA04656914E24893281E937B7'
+  Checksum64    = '8C1FE58644FDDC8FC1E3CCD97A048630F8E1E0DF196931825DFBE5C3F93882F5'
   ChecksumType64= 'sha256'
 
 }
